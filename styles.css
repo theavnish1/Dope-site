@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;600;700&family=Inter:wght@600;700;900&display=swap");
+@import url("https://www.dafontfree.net/embed/ZnJhbmtsaW4tZ290aGljLWhlYXZ5LXJlZ3VsYXImZGF0YS8xMy9mLzY0ODA2L0ZSQUhWLlRURg");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #e6e6e6;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-clip: content-box;
+}
+
+*::selection {
+  background: #87cd33;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+nav {
+  font-family: "Inter", sans-serif;
+  /* font-weight: 900; */
+}
+
+#hero {
+  font-family: "franklin-gothic-heavy-regular", sans-serif !important;
+}
+
+#karambit-card {
+  font-family: "Inter", sans-serif;
+}
+
+#Description-card {
+  font-family: "Hahmlet", serif;
+}
+
+#text {
+  font-family: "Hahmlet", serif;
+}
+
+.text-shadow {
+  /* color: #C27662; */
+  text-shadow: 1px 4px 5px #eebf27;
+}
+/* font-family: 'Hahmlet', serif; */
+.drop-shadow-x {
+  --tw-drop-shadow: drop-shadow(2px 3px 1px rgb(0 0 0 / 0.25));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.box-shadow {
+  box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bg {
+  background: radial-gradient(
+    231% 135.8% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(20px);
+}
+
+.hero-bg {
+  background: linear-gradient(180deg, #000 0%, #1b1b21 100%);
+  backdrop-filter: blur(50px);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .dope {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(20px);
+    width: min-content;
+    -webkit-mask: linear-gradient(#000 0 0) text;
+    mask: linear-gradient(#000 0 0) text;
+    -webkit-text-stroke: 2px white;
+  }
+}
+
+.glass-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 248, 248, 0.3) 0%,
+    rgba(136, 134, 134, 0.26) 82.08%,
+    rgba(234, 234, 234, 0) 100%
+  );
+  border: 2px solid;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.glass-des {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 248, 248, 0.3) 0%,
+    rgba(136, 134, 134, 0.26) 99.99%,
+    rgba(234, 234, 234, 0) 100%
+  );
+  border: 2px solid;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
